@@ -16,6 +16,19 @@
       "label": "postgres"
     }
   },
+
+  "settings": {
+    "remote.portsAttributes": {
+      "3000": {
+        "label": "web"
+      },
+      "5432": {
+        "label": "postgres"
+      }
+    },
+    "editor.fontFamily": "Comic Sans MS",
+    "editor.fontLigatures": false
+  },
   
   // Specifies a command that should be run after the container has been created.
   "postCreateCommand": "npm install",
