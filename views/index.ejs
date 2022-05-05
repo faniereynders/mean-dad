@@ -10,7 +10,7 @@
       <% for(var i=0; i < chores.length; i++) { %>
         <% chore = chores[i] %>
         <div class="chore-containers">
-          <span class="chores"><%- chore.title %> -</span>
+          <span class="chores"><%- chore.person %>: <%- chore.title %> -</span>
 
           <% if (chore.done_at) { %>
             <span>❤️ Good work!</span>
